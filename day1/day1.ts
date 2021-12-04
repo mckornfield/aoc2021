@@ -1,4 +1,4 @@
-export function countIncreases(input: string): Number {
+export function countIncreases(input: string): number {
   const items = input.split('\n');
   let count = 0;
   for (let i = 1; i < items.length; i++) {
@@ -11,7 +11,7 @@ export function countIncreases(input: string): Number {
   return count;
 }
 
-export function countIncreasesSlidingWindow(input: string): Number {
+export function countIncreasesSlidingWindow(input: string): number {
   const items = input.split('\n');
   let count = 0;
   for (let i = 3; i < items.length; i++) {
